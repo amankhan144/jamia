@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .menu1{
+            width: 100%;
+            height: 60px;
+            background-color: green;
+        }
+        .menu1 ul{
+            display: flex;
+            list-style: none;
+        }
+        .menu1 ul li{
+            padding: 20px;
+        }
+        .menu1 ul li a{
+            text-decoration: none;
+            color: white;
+
+        }
+        .menu2 ul{
+            display: block;
+        }
+        .menu2{
+            background-color: green;
+            display: none;
+            margin-left: -40px;
+        }
+        .menu1 ul li:hover .menu2{
+            display: block;
+            position: absolute;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="menu1">
+        <ul>
+            <li><a href=""> Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href=""> service</a>
+            <div class="menu2">
+                <ul>
+                    <li><a href="">digital</a></li>
+                    <li><a href="">hosting</a>
+                    <div class="menu3">
+                        <ul>
+                            <li><a href="">web</a></li>
+                            <li><a href="">router</a>
+                            <div class="menu4">
+                                <ul>
+                                    <li><a href="">24 port</a></li>
+                                    <li><a href="">12 port</a></li>
+                                </ul>
+
+                            </div>
+                        </li>
+                        </ul>
+
+                    </div>
+                </li>
+                </ul>
+
+            </div>
+        </li>
+        </ul>
+
+    </div>
+    
+</body>
+</html>
